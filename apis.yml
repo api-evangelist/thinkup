@@ -1,7 +1,24 @@
 aid: thinkup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinkup.png
 name: ThinkUp
-description: ThinkUp is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ThinkUp was a social media analytics application, co-founded by Gina Trapani and
+  Anil Dash, that gave individuals insights into their own activity across Twitter, Facebook,
+  Instagram, and other social networks. Backed by Bloomberg Beta, it ran as both a hosted
+  subscription service and an open-source project (ThinkUpLLC/ThinkUp on GitHub, 3.2k+ stars)
+  before its hosted service was shut down in 2016. The thinkup.com domain is no longer
+  operated by the company (it now resolves to an unrelated coupon-code site), and no public
+  developer API surface is available for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/thinkup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,32 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct: true
+x-defunct-note: Hosted service shut down in 2016; thinkup.com domain no longer controlled by the company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Analytics
+- Social Media
+- Social Media Analytics
+- Open Source
+- Defunct
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/ThinkUpLLC
+- type: SourceCode
+  url: https://github.com/ThinkUpLLC/ThinkUp
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
