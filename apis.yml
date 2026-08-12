@@ -41,6 +41,9 @@ tags:
 - Defunct
 apis: []
 common:
+- type: License
+  name: GPL-3.0
+  url: https://github.com/ThinkUpLLC/ThinkUp/blob/master/LICENSE
 - type: GitHubOrganization
   url: https://github.com/ThinkUpLLC
 - type: SourceCode
