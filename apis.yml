@@ -1,4 +1,16 @@
 aid: thinkup
+deliveryModel:
+  model: self-hosted
+  license: GPL-3.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -48,6 +60,12 @@ tags_raw:
 - Defunct
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/ThinkUpLLC/ThinkUp/issues
+- type: Releases
+  url: https://github.com/ThinkUpLLC/ThinkUp/releases
+- type: ContributionGuide
+  url: https://github.com/ThinkUpLLC/ThinkUp/blob/master/CONTRIBUTING.md
 - type: License
   name: GPL-3.0
   url: https://github.com/ThinkUpLLC/ThinkUp/blob/master/LICENSE
