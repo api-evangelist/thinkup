@@ -47,9 +47,9 @@ modified: '2026-07-21'
 tags:
 - Company
 - Analytics
-- Social-Media
+- Social Media
 - Social Media Analytics
-- Open-Source
+- Open Source
 - Defunct
 tags_raw:
 - Company
@@ -58,6 +58,8 @@ tags_raw:
 - Social Media Analytics
 - Open Source
 - Defunct
+- Social-Media
+- Open-Source
 apis: []
 common:
 - type: IssueTracker
